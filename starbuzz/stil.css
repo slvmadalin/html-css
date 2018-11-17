@@ -1,12 +1,37 @@
 body {
-  background-color: tan;
+  background-color: #777777;
   font-family: sans-serif;
+  font-size: 16px;
   margin-left: 10%;
       }
-h2,h3 {
-  font-family: serif;
-  color: green;
+h1{
+  font-size: 1.5em;
+}
+h2{
+  font-size: large;
+}
+h2 {
+    color: green;
     }
-  .denumire{
-        color: red;
+  #ceai{
+      border-color: green;
+      border-style: dotted;
+      }
+.produs{
+    border-width: medium;
+    border-style: solid;
     }
+.coffee {
+  border-color: red;
+  }
+  #mission{
+    line-height: 1.6em;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: red;
+    padding: 1%;
+    margin-right: 58%;
+    margin-left: 15%;
+    margin-color: green;
+  }
