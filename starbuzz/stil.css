@@ -1,5 +1,5 @@
 body {
-  background-color: #777777;
+  background-color: tan;
   font-family: sans-serif;
   font-size: 16px;
   margin-left: 10%;
@@ -35,3 +35,52 @@ h2 {
     margin-left: 15%;
     margin-color: green;
   }
+  .guarantee{
+    box-sizing: border-box;/*stabileste "width" pentru intreaga boxa*/
+    /*box-sizing: content-box; (stabileste "width" doar pentru continutul din boxa)*/
+    border-color: red;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #a7cece;
+    line-height: 1.6em;/*distanta dintre linii*/
+    padding: 3px;
+    padding-left: 80px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 80px;
+    max-width: 400px;
+    text-align: center;
+    /*float: right;/*face ca elementul sa pluteasca pe partea dreapta*/
+  }
+
+  a {
+    color: white;
+    text-decoration: none;/*nesubliniat*/
+  }
+a:link{
+
+}/*link nevizitat*/
+a:visited{
+  color: #888888;/*gri pur*/
+}/*link vizitat*/
+a:hover{
+  text-decoration: underline;/*subliniat*/
+}/*culoare cand mous-ul e pe link*/
+
+.song{
+  font-style: italic;
+}
+.artist{
+  font-weight: bold;
+}
+
+#ticket{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 290px;
+}/* pozitioneaza fix elementul */
